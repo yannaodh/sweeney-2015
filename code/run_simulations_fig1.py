@@ -20,7 +20,7 @@ script_pars = {
 now = datetime.datetime.now()
 
 if script_pars['log']:
-    script_pars['logdir'] = '../simulation-results/fig_1/'
+    script_pars['logdir'] = '../simulation-results/fig-1/'
     os.system('mkdir ../simulation-results')
     os.system('mkdir ../simulation-results/fig-1')
 
@@ -134,7 +134,7 @@ def run_iter(iter_pars):
     print iter_pars
     logfile = iter_pars['logdir']+"{0}{1}.pickle".format('results',iter_pars['sim_id'])
     iter_pars['logfile']=logfile
-    results.append(network_simulation_revision.main(iter_pars))
+    results.append(network_simulation.main(iter_pars))
     if script_pars['log']:
         common.save_pickle_safe(iter_pars['logdir']+"{0}{1}.pickle".format('results',iter_pars['sim_id']),results[-1])
 
