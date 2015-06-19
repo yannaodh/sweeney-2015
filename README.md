@@ -1,10 +1,10 @@
-# sweeney-2015
-A diffusive homeostatic signal maintains neural heterogeneity and responsiveness in cortical networks; Yann Sweeney, Jeanette Hellgren Kotaleski, Matthias H. Hennig
+# A diffusive homeostatic signal maintains neural heterogeneity and responsiveness in cortical networks
+## Yann Sweeney, Jeanette Hellgren Kotaleski, Matthias H. Hennig
 
 To see the code used to implement the numerical diffusion method, see code/diffusion_minimal_example.py . Brief instructions on how to include this in an existing brian model are contained within. 
 
 To generate the data for each figure run the run_simulations_figX.py script from command line using
-'python run_simulations_figX.py' , where X is the figure number. A lot of text output will be created showing the progress. You will need to be in the same directory as the 'network_simulation.py' file, and 
+'python run_simulations_figX.py' , where X is the figure number. A lot of text output will be created showing the progress. You will need to be in the same directory as the 'network_simulation.py' file, and other .py files.  
 
 Python with numpy and the brian simulator (briansimulator.org) will need to be installed. These scripts were tested on a machine with OSX 10.10, Python v2.7.10, numpy v1.9.2, and brian v1.4.1
 
