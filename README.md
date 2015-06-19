@@ -1,5 +1,5 @@
+# Yann Sweeney, Jeanette Hellgren Kotaleski, Matthias H. Hennig
 # A diffusive homeostatic signal maintains neural heterogeneity and responsiveness in cortical networks
-## Yann Sweeney, Jeanette Hellgren Kotaleski, Matthias H. Hennig
 
 To see the code used to implement the numerical diffusion method, see code/diffusion_minimal_example.py . Brief instructions on how to include this in an existing brian model are contained within. 
 
