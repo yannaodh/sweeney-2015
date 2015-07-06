@@ -1,7 +1,9 @@
-# Yann Sweeney, Jeanette Hellgren Kotaleski and Matthias H. Hennig
-# A diffusive homeostatic signal maintains neural heterogeneity and responsiveness in cortical networks
+#Y Sweeney, J Hellgren-Kotaleski, and M Hennig (2015). 
+#A diffusive homeostatic signal maintains neural heterogeneity and responsiveness in cortical networks. PLoS Comp. Biol. DOI: 10.1371/journal.pcbi.1004389
 
 To see the code used to implement the numerical diffusion method, see code/diffusion_minimal_example.py . Brief instructions on how to include this in an existing brian model are contained within. 
+
+To see a simplified python script containing a spiking network model with diffusive homeostasis implemented (written in brian) see code/network_minimal_example.py .
 
 To generate the data for each figure run the run_simulations_figX.py script from command line using
 'python run_simulations_figX.py' , where X is the figure number. A lot of text output will be created showing the progress. You will need to be in the same directory as the 'network_simulation.py' file, and other .py files.  
