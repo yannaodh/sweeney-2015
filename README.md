@@ -8,7 +8,9 @@ To see a simplified python script containing a spiking network model with diffus
 To generate the data for each figure run the run_simulations_figX.py script from command line using
 'python run_simulations_figX.py' , where X is the figure number. A lot of text output will be created showing the progress. You will need to be in the same directory as the 'network_simulation.py' file, and other .py files.  
 
-Python with numpy and the brian simulator (briansimulator.org) will need to be installed. These scripts were tested on a machine with OSX 10.10, Python v2.7.10, numpy v1.9.2, and brian v1.4.1
+Python with numpy (http://www.numpy.org/) and the brian simulator (www.briansimulator.org) will need to be installed. These scripts were tested on a machine with OSX 10.10, Python v2.7.10, numpy v1.9.2, and brian v1.4.1
+
+IPython Notebook (http://ipython.org/notebook.html) will be required in order to interact with the IPython Notebooks containing the plots.
 
 As the simulations can take quite a long time to run (several hours on a multicore machine) and the resulting datafiles are quite large (~1 GB total), sample data generated from the code are provided for each figure and may be downloaded from figshare.
 
