@@ -18,4 +18,4 @@ Figure 4: http://dx.doi.org/10.6084/m9.figshare.1454455
 
 Figure 5: http://dx.doi.org/10.6084/m9.figshare.1454469
 
-For any queries, comments or request please do not hesitate to contact me at yann.sweeney@ed.ac.uk. 
+For any queries, comments or requests please do not hesitate to contact me at yann.sweeney@ed.ac.uk. 
