@@ -115,7 +115,7 @@ def diffuse_NOgrid(): # taken from Philippedes et al. (2000, J Neurosci). Also c
     NO_concs.clip(min=0,out=NO_concs)
 
 
-def nodiffuse_NOgrid(): # taken from Philippedes
+def nodiffuse_NOgrid():
     #	This function uses a numpy expression to evaluate the derivatives in the Laplacian, and calculates u[i,j] based on ui[i,j].
     global NO_concs#, maxthresh_NO
 
